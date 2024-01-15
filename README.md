@@ -1,6 +1,6 @@
 # The Official Implementation of Paper _Adversarial Attack for RobustWatermark Protection Against Inpainting-based and BlindWatermark Removers_
 
-## Structure
+## Directory Structure
 * inpainting
     * AWD-AGP  
         * source_models (Corresponding watermark removers should be firstly installed by users and adapted to the APIs suggested as the following documents.)
