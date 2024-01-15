@@ -2,7 +2,7 @@
 
 ## Structure
 * Item inpainting
-    * Item ensemble
+    * Item AWD-AGP
         * Item source_models (Corresponding watermark removers should be firstly installed by users and adapted to the APIs suggested as the following documents.)
             * Item WDnet.py: API of WDnet (_WDNet: Watermark-Decomposition Network for Visible Watermark Removal_)
             * Item Mat.py: API of Mat (_MAT: Mask-Aware Transformer for Large Hole Image Inpainting_)
@@ -46,7 +46,7 @@
             ```js 
             python -m inpainting.ensemble.surrogate_generate_AE_mask_DE_for_each_model --dataset places2 --target_models Target_model --lossType perceptual_loss --InputImg_dir Dir_of_input_images --output_dir Dir_of_output_of_adversarial_examples_in_transfer_attack
             ```
-        * Item superpixel_fcn: superpixel generation package.
+        * Item superpixel_fcn: superpixel generation package (https://github.com/fuy34/superpixel_fcn)
     * Item Mat: Mat package, (which users need to install and adapt to the API suggested in the source_models folder. So do following watermark remover packages)
     * Item generative_inpainting
     * Item FcF_inpainting
