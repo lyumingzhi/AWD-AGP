@@ -46,7 +46,7 @@
             ```js 
             python -m inpainting.ensemble.surrogate_generate_AE_mask_DE_for_each_model --dataset places2 --target_models Target_model --lossType perceptual_loss --InputImg_dir Dir_of_input_images --output_dir Dir_of_output_of_adversarial_examples_in_transfer_attack
             ```
-        * superpixel_fcn: superpixel generation package (https://github.com/fuy34/superpixel_fcn)
+        * superpixel_fcn: superpixel generation package (recommend to install from https://github.com/fuy34/superpixel_fcn)
     * Mat: Mat package, (which users need to install and adapt to the API suggested in the source_models folder. So do following watermark remover packages)
     * generative_inpainting
     * FcF_inpainting
