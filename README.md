@@ -55,4 +55,4 @@
     * Item WDNet
 
 ![The attack results of AWD-AGP and DWV on WDModel. The images in the first row are watermarked images and the images in the second row are the attack results.]("https://github.com/lyumingzhi/AWD-AGP/blob/main/blind_watermark_removal.jpg")
-![The attack results of AWD-AGP and markpainting on FcFnet. The images in the first row are watermarked images and the images in the second row are the attack results.]("https://github.com/lyumingzhi/AWD-AGP/blob/main/inpainting_based_removal.jpg)
+![The attack results of AWD-AGP and markpainting on FcFnet. The images in the first row are watermarked images and the images in the second row are the attack results.]("https://github.com/lyumingzhi/AWD-AGP/blob/main/inpainting_based_removal.jpg")
