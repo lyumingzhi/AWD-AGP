@@ -2,7 +2,7 @@
 
 ## Structure
 * Item inpainting
-    * Item AWD-AGP
+    * Item AWD-AGP  
         * Item source_models (Corresponding watermark removers should be firstly installed by users and adapted to the APIs suggested as the following documents.)
             * Item WDnet.py: API of WDnet (_WDNet: Watermark-Decomposition Network for Visible Watermark Removal_)
             * Item Mat.py: API of Mat (_MAT: Mask-Aware Transformer for Large Hole Image Inpainting_)
@@ -54,5 +54,5 @@
     * Item generative_inpainting_pytorch
     * Item WDNet
 
-![The attack results of AWD-AGP and DWV on WDModel. The images in the first row are watermarked images and the images in the second row are the attack results.]("blind_watermark_removal.jpg")
-![The attack results of AWD-AGP and markpainting on FcFnet. The images in the first row are watermarked images and the images in the second row are the attack results.]("inpainting_based_removal.jpg")
+![The attack results of AWD-AGP and DWV on WDModel. The images in the first row are watermarked images and the images in the second row are the attack results.]("https://github.com/lyumingzhi/AWD-AGP/blob/main/blind_watermark_removal.jpg")
+![The attack results of AWD-AGP and markpainting on FcFnet. The images in the first row are watermarked images and the images in the second row are the attack results.]("https://github.com/lyumingzhi/AWD-AGP/blob/main/inpainting_based_removal.jpg)
